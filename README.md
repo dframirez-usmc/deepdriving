@@ -2,6 +2,8 @@
 AI and ML techniques applied to the KITTI automotive dataset!
 This is mostly demonstrations of different computer vision and deep learning techniques for Visual-SLAM, 3D Reconstruction, and Pointclouds.
 
+![alt text](https://github.com/dframirez-usmc/deepdriving/blob/main/projection.gif?raw=true)
+
 KITTI Odometry Dataset is expected in the user home of your filesystem:
 
     ~/KITTI/dataset/poses/

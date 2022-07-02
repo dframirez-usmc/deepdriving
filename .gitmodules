@@ -1,3 +1,6 @@
 [submodule "MonoRec"]
 	path = MonoRec
 	url = git@github.com:Brummi/MonoRec.git
+[submodule "detectron2"]
+	path = detectron2
+	url = git@github.com:facebookresearch/detectron2.git

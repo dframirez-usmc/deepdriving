@@ -6,10 +6,11 @@ This is mostly demonstrations of different computer vision and deep learning tec
 
 run this to move data_depth_annotated files into the sequence directories:
 
-```python preprocess_kitti_extract_annotated_depth.py && \
---output "/home/user/KITTI/dataset/" && \
---input "/home/user/KITTI/data_depth_annotated.zip" && \
---depth_folder "image_depth_annotated"```
+    python preprocess_kitti_extract_annotated_depth.py && \
+    --output "/home/user/KITTI/dataset/" && \
+    --input "/home/user/KITTI/data_depth_annotated.zip" && \
+    --depth_folder "image_depth_annotated"
+
 
 KITTI Odometry Dataset is expected in the user home of your filesystem:
 

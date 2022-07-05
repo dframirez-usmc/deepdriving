@@ -4,6 +4,10 @@ This is mostly demonstrations of different computer vision and deep learning tec
 
 ![alt text](https://github.com/dframirez-usmc/deepdriving/blob/main/projection.gif?raw=true)
 
+run this to move data_depth_annotated files into the sequence directories:
+
+python preprocess_kitti_extract_annotated_depth.py --output "/home/user/KITTI/dataset/" --input "/home/user/KITTI/data_depth_annotated.zip" --depth_folder "image_depth_annotated"
+
 KITTI Odometry Dataset is expected in the user home of your filesystem:
 
     ~/KITTI/dataset/poses/
@@ -11,6 +15,7 @@ KITTI Odometry Dataset is expected in the user home of your filesystem:
                                 /image_1/
                                 /image_2/
                                 /image_3/
+                                /image_depth_annotated/
                                 /velodyne/
                              /01/
                              /02/

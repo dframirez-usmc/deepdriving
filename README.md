@@ -4,7 +4,7 @@ This is mostly demonstrations of different computer vision and deep learning tec
 
 ![alt text](https://github.com/dframirez-usmc/deepdriving/blob/main/projection.gif?raw=true)
 
-Run this to move ~~~data_depth_annotated.zip~~~ files into the sequence directories:
+Run this to move `data_depth_annotated.zip` files into the sequence directories:
 
     python preprocess_kitti_extract_annotated_depth.py \
     --output ~/KITTI/dataset/ \

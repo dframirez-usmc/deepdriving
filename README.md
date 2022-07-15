@@ -8,7 +8,7 @@ This is mostly demonstrations of different computer vision and deep learning tec
 
 Run the code below to move `data_depth_annotated.zip` files into the sequence directories:
 
-    python preprocess_kitti_extract_annotated_depth.py \
+    MonoRec $ python data_loader/scripts/preprocess_kitti_extract_annotated_depth.py \
     --output ~/KITTI/dataset/ \
     --input ~/KITTI/data_depth_annotated.zip \
     --depth_folder image_depth_annotated

@@ -6,7 +6,7 @@ This is mostly demonstrations of different computer vision and deep learning tec
 
 [As described in the MonoReq repo...](https://github.com/Brummi/MonoRec#kitti-odometry)
 
-Run this to move `data_depth_annotated.zip` files into the sequence directories:
+Run the code below to move `data_depth_annotated.zip` files into the sequence directories:
 
     python preprocess_kitti_extract_annotated_depth.py \
     --output ~/KITTI/dataset/ \
